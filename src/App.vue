@@ -1,20 +1,17 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <MyNavbar/>
-    <MyHomepage/>
+    <router-view></router-view>
     </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import MyHomepage from './components/MyHomepage.vue'
 import MyNavbar from './components/MyNavbar.vue'
 
 export default {
   name: 'App',
   components: {
-    MyHomepage,
     MyNavbar
   }
 }
