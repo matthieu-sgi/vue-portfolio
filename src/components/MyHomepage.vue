@@ -36,7 +36,7 @@
             }
         },
         redirectToProject() {
-            window.location.href = "https://matthieu-sgi.github.io/IoP/";
+            window.location.href = "/projects";
         }
         },
         
